@@ -1,12 +1,9 @@
-#! /bin/bash
+# AWS Studio Plotly setup
 
-pip install plotly==5.6.0
-pip install dash
-pip install ipywidgets
+This requires updating your AWS Studio environment to enable extension manager (experimental), found in the left side toolbar under Extension Manager (also accessible using ctr-shift-C). 
 
-export NODE_OPTIONS=--max-old-space-size=4096
-jupyter labextension install @jupyter-widgets/jupyterlab-manager@1.1 --no-build
-jupyter labextension install jupyterlab-plotly@5.6.0 --no-build
-jupyter labextension install plotlywidget@5.6.0 --no-build
-jupyter lab build
-unset NODE_OPTIONS
+
+Once enabled, run the `aws_studio_setup.sh` in a terminal window in AWS Sagemaker Studio. The script will install dash, plotly, and the ipywidget necessary to display plotly graphs. This will also download a number of Jupyter lab extensions, and rebuild your Jupyter executable. This will require some time to complete - 10 to 15 minutes. 
+
+May require restarting your Studio application. 
+
