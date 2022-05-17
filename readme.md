@@ -9,6 +9,7 @@ https://github.com/aws/studio-lab-examples/issues
 - run: ```jupyter labextension install jupyterlab-plotly@5.5.0 @jupyter-widgets/jupyterlab-manager```
 https://stackoverflow.com/questions/61214419/plotly-shows-blank-graphs-in-aws-sagemaker-jupyterlab
 
+<img width="317" alt="image" src="https://user-images.githubusercontent.com/31504432/168834448-ed945992-1279-4d94-9aca-8398addae69d.png">
 
 ### Also try this
 https://medium.com/@AlexeyButyrev/plotly-charts-in-sagemaker-jupyterlab-125987e9eda7
