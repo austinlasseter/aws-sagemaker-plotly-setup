@@ -1,4 +1,14 @@
+
 # AWS Studio Plotly setup
+
+### Try this: 
+
+- enable extension manager
+- run: ```jupyter labextension install jupyterlab-plotly@5.5.0 @jupyter-widgets/jupyterlab-manager```
+https://stackoverflow.com/questions/61214419/plotly-shows-blank-graphs-in-aws-sagemaker-jupyterlab
+
+
+### Also try this
 https://medium.com/@AlexeyButyrev/plotly-charts-in-sagemaker-jupyterlab-125987e9eda7
 
 
