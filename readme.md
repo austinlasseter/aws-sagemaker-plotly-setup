@@ -1,4 +1,6 @@
 # AWS Studio Plotly setup
+https://medium.com/@AlexeyButyrev/plotly-charts-in-sagemaker-jupyterlab-125987e9eda7
+
 
 This requires updating your AWS Studio environment to enable extension manager (experimental), found in the left side toolbar under Extension Manager (also accessible using ctr-shift-C). 
 
