@@ -1,6 +1,8 @@
 #! /bin/bash
 
-pip install plotly==5.8.0
+pip install npm
+pip install nodejs
+pip install plotly
 pip install dash
 pip install ipywidgets
 
