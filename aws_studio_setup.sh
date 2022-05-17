@@ -1,5 +1,7 @@
 #! /bin/bash
 
+oc apply -f https://raw.githubusercontent.com/jupyter-on-openshift/jupyter-notebooks/develop/image-streams/s2i-minimal-notebook.json
+
 conda install -c conda-forge npm -y
 conda install -c conda-forge nodejs -y
 conda install -c conda-forge plotly -y
