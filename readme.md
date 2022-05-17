@@ -1,6 +1,8 @@
 
 # AWS Studio Plotly setup
 
+https://github.com/aws/studio-lab-examples/issues
+
 ### Try this: 
 
 - enable extension manager
